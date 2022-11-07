@@ -1,0 +1,2 @@
+fav_num = 11
+msg = f"My favorite number is {fav_num}."
