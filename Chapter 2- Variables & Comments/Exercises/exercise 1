@@ -1,0 +1,5 @@
+msg = "I love driving."
+print(msg)
+
+msg = "It's really soothing!"
+print(msg)
