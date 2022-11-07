@@ -1,0 +1,5 @@
+money=50
+usb_cost=6
+print("The girl buys 8 USB sticks")
+leftover=50-6*8
+print("change after purchasing 8 USB sticks:",leftover)
