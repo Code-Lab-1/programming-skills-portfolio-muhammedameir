@@ -1,10 +1,10 @@
 names = ['Abdu', 'Aref', 'Yahya']
 
-msg = f"Hello, {names[0].title()}!"
+msg = f"Greetings, {names[0].title()}!"
 print(msg)
 
-msg = f"Hello, {names[1].title()}!"
+msg = f"Greetings, {names[1].title()}!"
 print(msg)
 
-msg = f"Hello, {names[2].title()}!"
+msg = f"Greetings, {names[2].title()}!"
 print(msg)
