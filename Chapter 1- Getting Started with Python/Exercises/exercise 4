@@ -1,0 +1,4 @@
+a='I'
+b='am'
+c='a tired indivisual'
+print(a+b+c)
