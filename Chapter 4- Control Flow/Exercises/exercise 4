@@ -1,0 +1,14 @@
+age = 17
+
+if age < 2:
+    print("subject is a baby!")
+elif age < 4:
+    print("subject is toddler!")
+elif age < 13:
+    print("subject is a kid!")
+elif age < 20:
+    print("subject is a teenager!")
+elif age < 65:
+    print("subject is an adult!")
+else:
+    print("subject is an elder!")
