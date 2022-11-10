@@ -1,4 +1,4 @@
 a='I'
 b='am'
-c='a tired indivisual'
+c='a tired person'
 print(a+b+c)
