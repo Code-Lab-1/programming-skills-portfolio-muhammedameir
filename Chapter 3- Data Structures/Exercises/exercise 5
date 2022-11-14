@@ -1,5 +1,5 @@
 # Invite some people to dinner.
-guests = ['sharif chakee', 'hamed jonger', 'yaser bob']
+guests = ['aref qadoori', 'yahya zift', 'abdu ali']
 
 name = guests[0].title()
 print(f"{name}, it would be an honor to have you over for dinner.")
