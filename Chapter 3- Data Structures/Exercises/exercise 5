@@ -1,0 +1,28 @@
+# Invite some people to dinner.
+guests = ['sharif chakee', 'hamed jonger', 'yaser bob']
+
+name = guests[0].title()
+print(f"{name}, it would be an honor to have you over for dinner.")
+
+name = guests[1].title()
+print(f"{name}, it would be an honor to have you over for dinner.")
+
+name = guests[2].title()
+print(f"{name}, it would be an honor to have you over for dinner.")
+
+name = guests[1].title()
+print(f"\nApologies, {name} wont be making it to dinner.")
+
+# Aref can't make it! Let's invite Sharif instead.
+del(guests[1])
+guests.insert(1, 'sharif chakee')
+
+# Print the invitations again.
+name = guests[0].title()
+print(f"\n{name}, it would be an honor to have you over for dinner.")
+
+name = guests[1].title()
+print(f"{name}, it would be an honor to have you over for dinner.")
+
+name = guests[2].title()
+print(f"{name}, it would be an honor to have you over for dinner.")
