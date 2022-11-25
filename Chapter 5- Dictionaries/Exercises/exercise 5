@@ -1,0 +1,36 @@
+# Make an empty list to store the pets in.
+pets = []
+
+# Make individual pets, and store each one in the list.
+pet = {
+    'animal type': 'dog',
+    'name': 'bobby',
+    'owner': 'absi',
+    'weight': 40,
+    'eats': 'dog foof',
+}
+pets.append(pet)
+
+pet = {
+    'animal type': 'cat',
+    'name': 'thor',
+    'owner': 'zyron',
+    'weight': 7,
+    'eats': 'cat food',
+}
+pets.append(pet)
+
+pet = {
+    'animal type': 'cow',
+    'name': 'ricky',
+    'owner': 'verde',
+    'weight': 75,
+    'eats': 'grass',
+}
+pets.append(pet)
+
+# Display information about each pet.
+for pet in pets:
+    print(f"\nHere's what I know about {pet['name'].title()}:")
+    for key, value in pet.items():
+        print(f"\t{key}: {value}")
